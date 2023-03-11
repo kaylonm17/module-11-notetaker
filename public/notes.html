@@ -19,7 +19,7 @@
     <nav class="navbar bg-info">
       <a class="navbar-brand text-light p-3" href="/public/index.html">Note Taker </a>
       <div class="icons">
-        <i class="fas fa-save text-light save-note"></i>
+        <button class="fas fa-save btn-dark save-note" id="saveButton"></button>
         <i class="fas fa-plus text-light new-note"></i>
       </div>
     </nav>
@@ -41,12 +41,12 @@
             <h2>New Note</h2>
             <input type="text" id="noteTitle" placeholder="Enter note title"><br>
             <textarea id="noteText" placeholder="Enter note text"></textarea><br>
-            <button id="saveButton">Save</button>
+            
           </div>
         </div>
       </div>
     </div>
-    <script src="/assets/js/index.js"></script>
+    <script src="/public/assets/js/index.js"></script>
     <script src="notes.js"></script>
   
   </body>
