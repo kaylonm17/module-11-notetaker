@@ -76,3 +76,14 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.new-note {
+  width: 80%; /* adjust the width as needed */
+}
